@@ -1,2 +1,79 @@
-
 /* css */
+html, body {
+  background-color: #DFE2D9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img, svg {
+  position: sticky;
+  left: 400px;
+}
+
+/*
+.redc {
+  position: relative;
+  background-color: #EE3125;
+  width: 350px;
+  height: 350px;
+  top: 0px;
+  left: 360px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.centerc {
+  position: relative;
+  background-color: #DFE2D9;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  left: 360px;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.rpillar {
+  position: relative;
+  color: black;
+  background-color: #2E3094;
+  width: 150px;
+  height: 350px;
+ top: 0px;
+  left: 360px;
+  border-radius: 100%;
+}
+
+.bpillar {
+  position: relative;
+  color: black;
+  background-color: #2E3094;
+  width: auto;
+  height: 150px;
+  top: 0px;
+  left: 360px;
+  border-radius: 100%;
+}
+*/
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  position: sticky;
+  width: 582px;
+  height: 74px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 47px;
+  line-height: 90px;
+}
+
+.subtitle {
+  position: relative;
+  top: 270px;
+}
