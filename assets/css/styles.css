@@ -7,73 +7,50 @@ html, body {
   box-sizing: border-box;
 }
 
-img, svg {
-  position: sticky;
-  left: 400px;
-}
-
-/*
-.redc {
-  position: relative;
-  background-color: #EE3125;
-  width: 350px;
-  height: 350px;
-  top: 0px;
-  left: 360px;
-  border-radius: 100%;
-  z-index: 1;
-}
-
-.centerc {
-  position: relative;
-  background-color: #DFE2D9;
-  width: 200px;
-  height: 200px;
-  top: 0px;
-  left: 360px;
-  border-radius: 100%;
-  z-index: 2;
-}
-
-.rpillar {
-  position: relative;
-  color: black;
-  background-color: #2E3094;
-  width: 150px;
-  height: 350px;
- top: 0px;
-  left: 360px;
-  border-radius: 100%;
-}
-
-.bpillar {
-  position: relative;
-  color: black;
-  background-color: #2E3094;
-  width: auto;
-  height: 150px;
-  top: 0px;
-  left: 360px;
-  border-radius: 100%;
-}
-*/
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-.title {
-  position: sticky;
-  width: 582px;
-  height: 74px;
-  font-family: monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 47px;
-  line-height: 90px;
+@media (min-width: 768px) {
+    .d-md-block {
+        display: block!important;
+    }
 }
 
-.subtitle {
-  position: relative;
-  top: 270px;
+/* title text adjustments */
+@media screen and (min-width: 1000px) {
+  .textsize {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .textsize {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .textsize {
+    font-size: 30px;
+  }
+}
+
+/* subtitle text adjustments */
+@media screen and (min-width: 601px) {
+  .stextsize {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .stextsize {
+    font-size: 8px;
+  }
+}
+
+.d-none {
+    display: block!important;
 }
