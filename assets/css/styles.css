@@ -13,9 +13,9 @@ html, body {
 }
 
 @media (min-width: 768px) {
-    .d-md-block {
-        display: block!important;
-    }
+  .d-md-block {
+    display: block !important;
+  }
 }
 
 /* title text adjustments */
@@ -38,19 +38,18 @@ html, body {
 }
 
 /* subtitle text adjustments */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1000px) {
+  .stextsize {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .stextsize {
     font-size: 10px;
   }
 }
 
-
-@media screen and (max-width: 600px) {
-  .stextsize {
-    font-size: 8px;
-  }
-}
-
 .d-none {
-    display: block!important;
+  display: block !important;
 }
