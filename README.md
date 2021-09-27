@@ -33,20 +33,20 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 ## Instructions
 
-- [ ] Fork this repository and clone it to your `critical-web-design` folder on your machine.
-- [ ] Select an example from [Swissted](https://www.swissted.com/) or [search for one](https://duckduckgo.com/?q=swiss+design+examples&iax=images&ia=images) that speaks to you
+- [x] Fork this repository and clone it to your `critical-web-design` folder on your machine.
+- [x] Select an example from [Swissted](https://www.swissted.com/) or [search for one](https://duckduckgo.com/?q=swiss+design+examples&iax=images&ia=images) that speaks to you
 
 #### Design
-- [ ] Use **only the Type and Shape tools** in [Figma](https://figma.com) to recreate the design.
-- [ ] Create a [layout grid in Figma](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows) to begin.
-- [ ] Recreate the design for desktop, tablet, and mobile. Use an appropriate layout grid for each.
-- [ ] The parts of your layout that require columns should fit within the Bootstrap grid layout.
-- [ ] Refer to the [Web Typography & Swiss Design slides](https://docs.google.com/presentation/d/10cE33DrhL79NI6ypYxT8epK34e5a6ZE5j6Oj2Gk1krQ/edit#slide=id.g4f07d111a9_0_0) as needed.
+- [x] Use **only the Type and Shape tools** in [Figma](https://figma.com) to recreate the design.
+- [x] Create a [layout grid in Figma](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows) to begin.
+- [x] Recreate the design for desktop, tablet, and mobile. Use an appropriate layout grid for each.
+- [x] The parts of your layout that require columns should fit within the Bootstrap grid layout.
+- [x] Refer to the [Web Typography & Swiss Design slides](https://docs.google.com/presentation/d/10cE33DrhL79NI6ypYxT8epK34e5a6ZE5j6Oj2Gk1krQ/edit#slide=id.g4f07d111a9_0_0) as needed.
 
 #### Code
-- [ ] Use HTML, CSS, and JS to code your design inside `index.html`
-- [ ] Do not add image files to the code. Retype the text from the example you chose
-- [ ] Use the [Bootstrap documentation](https://getbootstrap.com/docs/) as well as custom CSS for the columns in your design
+- [x] Use HTML, CSS, and JS to code your design inside `index.html`
+- [x] Do not add image files to the code. Retype the text from the example you chose
+- [x] Use the [Bootstrap documentation](https://getbootstrap.com/docs/) as well as custom CSS for the columns in your design
 - [ ] Use CSS `position`, `border`, and `translate()` properties to create and rotate lines
 - [ ] Make the band name a link to the image of the original design (but make sure the style still matches the poster)
 - [ ] Use JS `console.log()` to show credits: the original author of the design, and yourself  
