@@ -49,7 +49,7 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 - [x] Use the [Bootstrap documentation](https://getbootstrap.com/docs/) as well as custom CSS for the columns in your design
 - [x] Use CSS `position`, `border`, and `translate()` properties to create and rotate lines
 - [x] Make the band name a link to the image of the original design (but make sure the style still matches the poster)
-- [ ] Use JS `console.log()` to show credits: the original author of the design, and yourself  
+- [x] Use JS `console.log()` to show credits: the original author of the design, and yourself  
 
 #### Publish
 - [x] [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
