@@ -10,12 +10,13 @@ html, body {
 .title {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bolder;
-white-space: nowrap;
+  white-space: nowrap;
 }
-.subtitle{
+
+.subtitle {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bolder;
-white-space: nowrap;
+  white-space: nowrap;
 }
 
 .img-fluid {
