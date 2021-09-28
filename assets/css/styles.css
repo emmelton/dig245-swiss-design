@@ -7,6 +7,17 @@ html, body {
   box-sizing: border-box;
 }
 
+.title {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bolder;
+white-space: nowrap;
+}
+.subtitle{
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bolder;
+white-space: nowrap;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -31,6 +42,12 @@ html, body {
   }
 }
 
+@media screen and (max-width: 870px) {
+  .textsize {
+    font-size: 35px;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .textsize {
     font-size: 30px;
@@ -38,13 +55,25 @@ html, body {
 }
 
 /* subtitle text adjustments */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .stextsize {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  .stextsize {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .stextsize {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 810px) {
   .stextsize {
     font-size: 10px;
   }
