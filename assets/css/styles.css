@@ -3,10 +3,6 @@ html, body {
   background-color: #DFE2D9;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .title {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bolder;
@@ -33,52 +29,29 @@ html, body {
 /* title text adjustments */
 @media screen and (min-width: 1000px) {
   .textsize {
-    font-size: 60px;
+    font-size: 80px;
   }
 }
 
-@media screen and (max-width: 999px) {
+ @media screen and (max-width: 990px) {
+  .textsize {
+    font-size: 70px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .textsize {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .textsize {
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 870px) {
-  .textsize {
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .textsize {
-    font-size: 30px;
-  }
-}
-
-/* subtitle text adjustments */
-@media screen and (min-width: 1200px) {
-  .stextsize {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .stextsize {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .stextsize {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 810px) {
-  .stextsize {
-    font-size: 10px;
-  }
-}
 
 .d-none {
   display: block !important;
